@@ -422,6 +422,7 @@ Ok, here's how the code for this route would look:
 # server/app.py
 
 # imports, config, games, game_by_id, reviews
+# PATCH TO UPDATE
 @app.route('/reviews/<int:id>', methods=['GET', 'PATCH', 'DELETE'])
 
     # GET
